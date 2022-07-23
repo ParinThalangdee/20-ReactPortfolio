@@ -18,7 +18,6 @@ This application was made using React.
 ### Deployed Application Link
   
 [Deployed Application Link](https://parinthalangdee.github.io/20-react-portfolio/)
-**Unable to deploy on Heroku due to npm version issues. Currently troubleshooting**
 
 ### License
 
