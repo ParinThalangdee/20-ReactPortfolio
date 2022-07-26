@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import CssBaseline from '@mui/material/CssBaseline';
 import About from './components/About'
+import Work from './components/Work/Work'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <CssBaseline />
     <Navbar />
     <About />
+    <Work />
   </>
   );
 }
