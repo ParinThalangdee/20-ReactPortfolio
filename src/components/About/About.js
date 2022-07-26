@@ -10,14 +10,14 @@ const About = () => {
   return (
     <Grid>
       <Grid justifyContent="center" container padding={2} spacing={2}>
-        <Grid item md={4}></Grid>
+        <Grid item md={1}></Grid>
         <Grid item xs={12} md={4}>
           <Avatar alt="Portrait" src={photo} sx={{ width: 1, height: 1}}></Avatar>
         </Grid>
 
         <Grid item md={1}></Grid>
 
-        <Grid item xs={12} md={3}>
+        <Grid item xs={12} md={4}>
           <h1>Parin Thalangdee</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab quam fuga voluptate quis id soluta delectus tenetur illum ea! Placeat incidunt nemo natus, maiores quidem itaque quas dolorem in.</p>
         </Grid>
