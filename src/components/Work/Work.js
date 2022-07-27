@@ -42,11 +42,19 @@ const Work = () => {
   }]
 
   return (
-    <Grid>
-      <Grid justifyContent="center" container padding={2}>
+    <>
+      <Grid container justifyContent="center">
           <h1>My Work</h1>
       </Grid>
-    </Grid>
+      <Grid container spacing={4} padding={2} justifyContent="center">
+        {projects.map(project =>
+          <Grid item>
+            <Card></Card>
+          </Grid>
+          )}
+
+      </Grid>
+    </>
   )
 }
 
