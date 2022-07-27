@@ -5,39 +5,45 @@ import Card from '../Card'
 
 const Work = () => {
   let projects = [{
-    title: "example",
-    github: "",
-    heroku: "",
+    title: "example1",
+    tech: "javascript",
+    github: "https://github.com/ParinThalangdee",
+    deployed: "",
     image: ""
   },
   {
-    title: "example",
-    github: "",
-    heroku: "",
+    title: "example2",
+    tech: "",
+    github: "https://github.com/ParinThalangdee",
+    deployed: "",
     image: ""
   },
   {
-    title: "example",
-    github: "",
-    heroku: "",
+    title: "example3",
+    tech: "",
+    github: "https://github.com/ParinThalangdee",
+    deployed: "",
     image: ""
   },
   {
-    title: "example",
-    github: "",
-    heroku: "",
+    title: "example4",
+    tech: "",
+    github: "https://github.com/ParinThalangdee",
+    deployed: "",
     image: ""
   },
   {
-    title: "example",
-    github: "",
-    heroku: "",
+    title: "example5",
+    tech: "",
+    github: "https://github.com/ParinThalangdee",
+    deployed: "",
     image: ""
   },
   {
-    title: "example",
-    github: "",
-    heroku: "",
+    title: "example6",
+    tech: "",
+    github: "https://github.com/ParinThalangdee",
+    deployed: "",
     image: ""
   }]
 
@@ -49,7 +55,7 @@ const Work = () => {
       <Grid container spacing={4} padding={2} justifyContent="center">
         {projects.map(project =>
           <Grid item>
-            <Card title={project.title} github={project.github} image={project.image}></Card>
+            <Card title={project.title} github={project.github} image={project.image} tech={project.tech}></Card>
           </Grid>
           )}
 
