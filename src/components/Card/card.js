@@ -26,7 +26,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function RecipeReviewCard() {
+const RecipeReviewCard = ({github, image, title, heroku}) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -46,7 +46,7 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
+        title={title}
         subheader="September 14, 2016"
       />
       <CardMedia
@@ -110,3 +110,5 @@ export default function RecipeReviewCard() {
     </Card>
   );
 }
+
+export default RecipeReviewCard

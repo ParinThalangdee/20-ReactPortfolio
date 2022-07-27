@@ -49,7 +49,7 @@ const Work = () => {
       <Grid container spacing={4} padding={2} justifyContent="center">
         {projects.map(project =>
           <Grid item>
-            <Card></Card>
+            <Card title={project.title} github={project.github} image={project.image}></Card>
           </Grid>
           )}
 
