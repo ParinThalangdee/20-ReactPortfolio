@@ -1,6 +1,6 @@
 import React from 'react'
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+// import Box from '@mui/material/Box';
+// import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import photo from '../../Assets/photos/Parin1.jpeg'
 import Avatar from '@mui/material/Avatar';
@@ -19,7 +19,7 @@ const About = () => {
 
         <Grid item xs={12} md={4}>
           <h1>Parin Thalangdee</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab quam fuga voluptate quis id soluta delectus tenetur illum ea! Placeat incidunt nemo natus, maiores quidem itaque quas dolorem in.</p>
+          <p>I am currently a student who is studying html, css, and the javascript library to become a front end developer! I enjoy working in teams and love being active in groups. In my spare time, I love racing cars, offroading, and sometimes like to slow down with photography.</p>
         </Grid>
 
       </Grid>
