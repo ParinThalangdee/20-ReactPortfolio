@@ -5,38 +5,38 @@ import Card from '../Card'
 
 const Work = () => {
   let projects = [{
-    title: "example1",
-    tech: "javascript",
-    github: "https://github.com/ParinThalangdee",
-    deployed: "",
+    title: "PokeStats",
+    tech: "Javascript, HTML, CSS, Express",
+    github: "https://github.com/Godoflaugh/OG-Pokemon-Cards",
+    deployed: "https://damp-meadow-22664.herokuapp.com/",
+    image: "../../Assets/photos/pokestats.png"
+  },
+  {
+    title: "Dinner For Schmucks",
+    tech: "Javascript, HTML, CSS",
+    github: "https://github.com/DesertCow/DinnerWithSchmucks",
+    deployed: "https://desertcow.github.io/DinnerWithSchmucks/index.html",
+    image: "../Assets/DinnerForSchucks.png"
+  },
+  {
+    title: "Weather Dashboard",
+    tech: "Javascript, HTML, CSS",
+    github: "https://github.com/ParinThalangdee/06-WeatherDashboard",
+    deployed: "https://parinthalangdee.github.io/06-WeatherDashboard/",
     image: ""
   },
   {
-    title: "example2",
-    tech: "",
-    github: "https://github.com/ParinThalangdee",
-    deployed: "",
+    title: "Work Day Scheduler",
+    tech: "Javascript, HTML, CSS",
+    github: "https://github.com/ParinThalangdee/05-WorkDayScheduler",
+    deployed: "https://parinthalangdee.github.io/05-WorkDayScheduler/",
     image: ""
   },
   {
-    title: "example3",
-    tech: "",
-    github: "https://github.com/ParinThalangdee",
-    deployed: "",
-    image: ""
-  },
-  {
-    title: "example4",
-    tech: "",
-    github: "https://github.com/ParinThalangdee",
-    deployed: "",
-    image: ""
-  },
-  {
-    title: "example5",
-    tech: "",
-    github: "https://github.com/ParinThalangdee",
-    deployed: "",
+    title: "Javascript Quiz",
+    tech: "Javascript, HTML, CSS",
+    github: "https://github.com/ParinThalangdee/04-JavascriptQuiz",
+    deployed: "https://parinthalangdee.github.io/04-JavascriptQuiz/",
     image: ""
   },
   {
