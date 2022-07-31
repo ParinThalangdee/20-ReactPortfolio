@@ -40,9 +40,9 @@ const Work = () => {
     image: ""
   },
   {
-    title: "example6",
-    tech: "",
-    github: "https://github.com/ParinThalangdee",
+    title: "Send Foodz",
+    tech: "React, MongoDB, Javascript",
+    github: "https://github.com/Godoflaugh/Project-3",
     deployed: "",
     image: ""
   }]
