@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React/*, { UseState }*/ from 'react'
 import Grid from '@mui/material/Grid'
 import Input from '@mui/material/Input'
 import FormControl from '@mui/material/FormControl';
@@ -8,15 +8,36 @@ import Button from '@mui/material/Button';
 
 const contact = () => {
 
-  const [formState, setFormState] = useState({
-    name:'',
-    email:'',
-    message:''
-  })
+  // const [formState, setFormState] = UseState({
+  //   name:'',
+  //   email:'',
+  //   message:'',
+  //   nameNeeded: false
+  // })
 
-  const handleInputChange = ({ target: { name, value } }) => {
-    setFormState({ ...formState, [name]: value })
-  }
+  // const handleInputChange = ({ target: { name, value } }) => {
+  //   setFormState({ ...formState, [name]: value })
+  // }
+
+  // const handleNameBlur = () => {
+  //   if(formState.name === '') {
+  //     setFormState({...formState, nameNeeded: true})
+  //   }
+  // }
+
+  // const handleMessageBlur = () => {
+  //   if(formState.message==='') {
+  //     setFormState({...formState, messageNeeded: true, nameNeeded: false})
+  //   }
+  // }
+
+  // const handleEmailBlur = () => {
+  //   if(validateEmail(formState.email)===true){
+  //   console.log('valid email')
+  // } else {
+  //   setFormState([...formState, invalidEmail: true],messageNeeded: false)
+  // }
+  // }
 
   return (
     <>
@@ -32,8 +53,10 @@ const contact = () => {
             <InputLabel>Name</InputLabel>
             <Input 
             name="name"
-            onChange={handleInputChange}
-            aria-describedby="my-helper-text" />
+            // onChange={handleInputChange}
+            aria-describedby="my-helper-text"
+            // onBlur={handleNameBlur}
+            />
           </FormControl>
         </Grid>
 
@@ -42,8 +65,9 @@ const contact = () => {
             <InputLabel>Email Address</InputLabel>
             <Input 
             name="email"
-            onChange={handleInputChange}
+            // onChange={handleInputChange}
             aria-describedby="my-helper-text" />
+            {/* onBlur={handleEmailBlur} */}
           </FormControl>
         </Grid>
       
@@ -55,7 +79,8 @@ const contact = () => {
             maxRows={8}
             fullWidth
             name="message"
-            onchange={handleInputChange}
+            // onchange={handleInputChange}
+            // onBlur={handleMessageBlur}
             />
         </Grid>
 
@@ -64,7 +89,17 @@ const contact = () => {
             <Button>Submit</Button>
           </Grid>
         </Grid>
-
+      <Grid container justifyContent='center'>
+        {/* {
+            formState.nameNeeded? <p>Name is required</p> : ''
+        }
+        {
+          formState.messageNeeded? <p> name is required! </p> : ''
+        } 
+        {
+          formState.invalidEmail? <p> email is required! </p> : ''
+        }  */}
+      </Grid>
       </Grid>      
     </>
   )
