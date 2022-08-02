@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ParinThalangdee/20-react-portfolio/static/css/main.48e3e20f.css",
-    "main.js": "/ParinThalangdee/20-react-portfolio/static/js/main.9eb5bd27.js",
+    "main.js": "/ParinThalangdee/20-react-portfolio/static/js/main.3b0fe961.js",
     "static/media/Parin1.jpeg": "/ParinThalangdee/20-react-portfolio/static/media/Parin1.25dc6d71d7902a0ac2c5.jpeg",
     "index.html": "/ParinThalangdee/20-react-portfolio/index.html",
     "main.48e3e20f.css.map": "/ParinThalangdee/20-react-portfolio/static/css/main.48e3e20f.css.map",
-    "main.9eb5bd27.js.map": "/ParinThalangdee/20-react-portfolio/static/js/main.9eb5bd27.js.map"
+    "main.3b0fe961.js.map": "/ParinThalangdee/20-react-portfolio/static/js/main.3b0fe961.js.map"
   },
   "entrypoints": [
     "static/css/main.48e3e20f.css",
-    "static/js/main.9eb5bd27.js"
+    "static/js/main.3b0fe961.js"
   ]
 }
