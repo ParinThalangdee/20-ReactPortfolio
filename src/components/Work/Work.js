@@ -9,7 +9,7 @@ const Work = () => {
     tech: "Javascript, HTML, CSS, Express",
     github: "https://github.com/Godoflaugh/OG-Pokemon-Cards",
     deployed: "https://damp-meadow-22664.herokuapp.com/",
-    image: "../Assets/photos/pokestats.png",
+    image: "../../Assets/photos/pokestats.png",
     description:"Data Reference for the Pokemon Trading Card game using Express Server to store and render data to our front end."
   },
   {
