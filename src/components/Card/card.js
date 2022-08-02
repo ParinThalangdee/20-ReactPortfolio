@@ -24,7 +24,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-const ProjectCard = ({github, image, title, deployed, tech}) => {
+const ProjectCard = ({github, image, title, deployed, tech, description}) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -48,13 +48,11 @@ const ProjectCard = ({github, image, title, deployed, tech}) => {
         image={image}
         alt={title}
       />
-      <CardContent>
+      {/* <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+          CAPTION
         </Typography>
-      </CardContent>
+      </CardContent> */}
       <CardActions disableSpacing>
         <IconButton aria-label="Github Repository">
           <a href={github} target="_blank">
@@ -77,9 +75,8 @@ const ProjectCard = ({github, image, title, deployed, tech}) => {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+          <Typography>
+            <p>{description}</p>
           </Typography>
         </CardContent>
       </Collapse>

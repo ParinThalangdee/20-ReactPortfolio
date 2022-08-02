@@ -6,21 +6,26 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import {UseState} from 'react'
 
-const [pageState, setPageState] = UseState({
-  about: true,
-  work: false,
-  contact: false
-})
+// const [pageState, setPageState] = UseState({
+//   about: true,
+//   work: false,
+//   contact: false
+// })
 
 function App() {
   return (
   <>
     <CssBaseline />
-    <Navbar pageState={pageState} setPageState={setPageState} />
+    {/* <Navbar pageState={pageState} setPageState={setPageState} />
     {pageState.about? <About />: ''}
     {pageState.work? <Work />: ''}
     {pageState.contact? <Contact />: ''}
-    {pageState.footer ? <Footer />: ''}
+    {pageState.footer ? <Footer />: ''} */}
+    <Navbar />
+    <About />
+    <Work />
+    <Contact />
+    <Footer />
     </>
   );
 }
