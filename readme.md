@@ -17,7 +17,7 @@ This application was made using React.
   
 ### Deployed Application Link
   
-[Deployed Application Link](https://parinthalangdee.github.io/20-react-portfolio/)
+[Deployed Application Link](https://parinthalangdee.github.io/20-react-portfolio)
 
 ### License
 
